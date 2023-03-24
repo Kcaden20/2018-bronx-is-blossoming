@@ -16,3 +16,7 @@ I have been a public access design fellow this year at the Center For Urban Peda
 * Fannie Lou Hamer Freedom High School
 * KAPPA International High School
 This project was made possible by a grant awarded through the Mozilla Foundation’s Hive NYC Innovation Fund.
+
+*** 
+
+[View the live website here](http://www.welcometocup.com/blossoming/)
