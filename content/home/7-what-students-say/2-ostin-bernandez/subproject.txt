@@ -1,0 +1,13 @@
+Title: Blake Coniglio
+
+----
+
+Object: blake.png
+
+----
+
+Text: (vimeo:https://vimeo.com/289954901)
+
+----
+
+Text2: (image: blake2.jpg)(link: https://visionmaker.us/nyc/?vision=30568 text:See Blake’s vision! target:_blank)

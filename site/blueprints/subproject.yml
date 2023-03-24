@@ -1,0 +1,24 @@
+title: Sub Project
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 3/4
+
+  object:
+    label: Object
+    type: image
+
+  text:
+    label: Text
+    type:  textarea
+
+  text2:
+    label: Next Text
+    type: textarea

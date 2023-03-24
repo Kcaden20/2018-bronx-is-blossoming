@@ -1,0 +1,13 @@
+Title: Photo Gallery
+
+----
+
+Object: photo.png
+
+----
+
+Text: (link: https://www.flickr.com/photos/cup_photos/albums/72157697879666051 text: See photos of student’s investigation into nature in the Bronx target:_blank)
+
+----
+
+Text2: 

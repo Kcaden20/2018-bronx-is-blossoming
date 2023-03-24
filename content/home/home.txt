@@ -1,0 +1,32 @@
+Title: The Bronx is Blooming
+
+----
+
+Intro: 
+
+Who has access to nature? Who decides? 
+
+In the summer of 2018, (link: http://welcometocup.org text: CUP target:_blank), in collaboration with the (link: https://www.wcs.org/ text: Wildlife Conservation Society target:_blank) (WCS), partnered with Teaching Artist (link: http://www.hugorojas.org/  text: Hugo Rojas target:_blank) and public high school students from around the South Bronx to investigate these questions.
+
+Students photographed the neighborhood, created stop-motion animations, stenciled the area with spray chalk. They conducted community surveys, interviewed key stakeholders, and used WCS's (link:https://visionmaker.us/nyc/  text: Visionmaker.nyc target:_blank) to create digital renderings of what nature in the Bronx could look like in the future. The team used design and art to break down the information they gathered and teamed up with designer (link: http://kevincadena.com text: Kevin Cadena target:_blank) to create this website to teach others what they learned and share their visions for nature in the South Bronx!
+
+Click an icon to go deeper!
+
+----
+
+Text: 
+
+## Get started
+
+- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
+- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
+- Follow (twitter: @getkirby) on Twitter for updates
+- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
+- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
+- (link: http://getkirby.com/support text: Get in contact) if you need support.
+
+**Have fun with Kirby!**
+
+----
+
+Background: background.jpg

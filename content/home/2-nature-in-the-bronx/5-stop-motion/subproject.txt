@@ -1,0 +1,13 @@
+Title: Stop Motion
+
+----
+
+Object: play.png
+
+----
+
+Text: (vimeo: https://vimeo.com/289361594 lazyload: true)
+
+----
+
+Text2: 

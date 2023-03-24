@@ -1,0 +1,25 @@
+Title: Nature in The Bronx
+
+----
+
+Year: 
+
+----
+
+Text: (vimeo: https://vimeo.com/289361594)
+
+----
+
+Background: background-5.jpg
+
+----
+
+Object: the_bronx.png
+
+----
+
+Toggle: true
+
+----
+
+Featured-video: 

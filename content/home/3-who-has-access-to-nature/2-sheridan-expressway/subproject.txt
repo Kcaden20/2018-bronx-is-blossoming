@@ -1,0 +1,13 @@
+Title: Sheridan Expressway
+
+----
+
+Object: map-of-area.png
+
+----
+
+Text: “(link: https://www.google.com/url?q=https://www.google.com/maps/place/Sheridan%2BHotel/@40.8310122,-73.8866629,17z/data%3D!3m1!4b1!4m7!3m6!1s0x89c2f4f740492113:0x6b09b3d5e1232d1d!5m1!1s2018-09-30!8m2!3d40.8310122!4d-73.8844742&sa=D&ust=1538077730488000&usg=AFQjCNElGhXCwa-TfVxkwxLg2Go5A53nLA text: [The Sheridan Expressway] )is not a very well used highway compared to a lot of the other highways in the city, and it totally divides that neighborhood from the Bronx River…If you look at examples of other cities that have torn down highways, like Embarcadero Highway in San Francisco, for example, it just revitalized a huge part of the city, and so it became much better for the people and it became much better for the economy.” <br><br>– ** Eric Sanderson, Senior Conservation Ecologist, Wildlife Conservation Society**
+
+----
+
+Text2: (image: img_1140.jpg)

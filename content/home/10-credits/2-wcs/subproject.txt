@@ -1,0 +1,13 @@
+Title: Wildlife Conservation Society
+
+----
+
+Object: wcs.png
+
+----
+
+Text: **(link:https://www.wcs.org/ text:The Wildlife Conservation Society target:_blank) (WCS)** founded in 1895, saves wildlife and wild places worldwide through science, conservation action, education, and inspiring people to value nature. To learn more, visit (link: http://wcs.org/ text: wcs.org target:_blank) and (link: http://visionmaker.nyc/ text: visionmaker.nyc target:_blank).<br><br>**WCS**<br>**Senior Conservation Ecologist**: Eric Sanderson<br>**Spatial Analyst and Developer**: Kim Fisher
+
+----
+
+Text2:

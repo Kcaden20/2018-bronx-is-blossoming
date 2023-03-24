@@ -1,0 +1,13 @@
+Title: Get Involved
+
+----
+
+Object: blake.png
+
+----
+
+Text: Explore nature in the Bronx:<br>* (link:https://www.wcs.org/ text:Wildlife Conservation Society target:_blank) <br>* (link:http://rockingtheboat.org/ text:Rocking the Boat target:_blank)<br>* (link:https://www.nybg.org/learn/kids-teens/explainers/ text: New York Botanical Garden target:_blank)<br>* (link:https://www.nycgovparks.org/programs/rangers/conservation-corps text: NYC Parks and Recreation Department target:_blank) <br><br>Work in nature and get paid!<br>* (link:https://bronxzoo.com/teens text: Bronx Zoo target:_blank)<br>* (link:https://www.nature.org/en-us/about-us/who-we-are/how-we-work/youth-engagement/leaf-internships/ text:The Nature Conservancy target:_blank)<br><br>For more information:<br>* (link:https://tinyurl.com/y9hvvt9d text: Read more about the Governor’s plan for Sheridan Expressway target:_blank)<br>* (link:http://www.sbrwa.org/ text: Read more about the community’s plans for Sheridan Expressway target:_blank)
+
+----
+
+Text2:

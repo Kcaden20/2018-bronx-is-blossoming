@@ -1,0 +1,13 @@
+Title: Students
+
+----
+
+Object: students.png
+
+----
+
+Text: (link: http://www.welcometocup.org/Projects/CityStudies  text: City Studies target:_blank) are CUP’s project-based in-class and afterschool programs that use design, art, and digital platforms as tools to research the city. To learn more, visit (link:http://www.welcometocup.org/  text: welcometocup.org target:_blank)<br><br>**High School Partners**<br>(link:http://www.bronxlabschool.org/ text:Bronx Lab School target:_blank)<br>(link: http://www.flhfhs.org/ text:Fannie Lou Hamer Freedom High School target:_blank)<br>(link: http://www.kappainternational.org/ text:KAPPA International High School target:_blank)<br><br>**Students**<br>Rayken Almonte<br>Ostin Bernardez<br>Michael Berrios<br>Blake Coniglio<br>Brianna Douglas<br>Nusrath Islam<br>Anyer Ogando<br>Fredelin Ortiz<br>Hector Peña<br>Luis Pinales<br>Tyreek Saunders<br><br>This project was made possible by a grant awarded through the Mozilla Foundation’s Hive NYC Innovation Fund.<br><br>Click the icons to see the rest of our partners.<br><br>© the Center for Urban Pedagogy, 2018
+
+----
+
+Text2:

@@ -1,0 +1,25 @@
+Title: What Do Students Say?
+
+----
+
+Coverimage: 
+
+----
+
+Date: today
+
+----
+
+Text: Click on a student to hear what they have to say!
+
+----
+
+Featured-video: 
+
+----
+
+Background: background.jpg
+
+----
+
+Object: rap.png

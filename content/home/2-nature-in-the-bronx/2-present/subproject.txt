@@ -1,0 +1,13 @@
+Title: Present
+
+----
+
+Object: img_0743.png
+
+----
+
+Text: “If you look at pictures of the Bronx River in like 1973, 1974 it was like a sewer pipe. It was terrible. And now there’s parts that look like the Catskills. In the history of the city it’s actually a very short period of change. I think there’s this huge opportunity to make the Bronx the center of nature in New York City. Because it has this fundamental infrastructure. It has the river, it has this park system and I think the Bronx really needs a brand new reputation than the reputation that was created in the 1970s.”<br><br>-** Eric Sanderson, Senior Conservation Ecologist, Wildlife Conservation Society**<br><br>(link:https://www.nycgovparks.org/highlights/bronx-river-greenway/then-and-now text: Check out how the Bronx River has changed over the years! target:_blank)
+
+----
+
+Text2: (image: boat.jpg)(link:http://rockingtheboat.org text: Explore the Bronx River with Rocking the Boat! target:_blank)

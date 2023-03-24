@@ -1,0 +1,21 @@
+Title: Podcast
+
+----
+
+Background: background.jpg
+
+----
+
+Object: 
+
+----
+
+Text: 
+
+(embed: https://soundcloud.com/centerofurbanpedagogy/the-bronx-is-blooming lazyvideo: true)
+<br><br>
+Listen to the podcast to learn more on the students’ investigation into nature in the Bronx
+
+----
+
+Featured-video: https://soundcloud.com/centerofurbanpedagogy/the-bronx-is-blooming

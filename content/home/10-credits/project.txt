@@ -1,0 +1,25 @@
+Title: Credits
+
+----
+
+Text: Click on the icons to see everyone who helped out in making this project possible!
+
+----
+
+Coverimage: 
+
+----
+
+Date: today
+
+----
+
+Featured-video: 
+
+----
+
+Background: background-credits.jpg
+
+----
+
+Object: 

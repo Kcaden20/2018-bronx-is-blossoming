@@ -1,0 +1,13 @@
+Title: Fredelin Ortiz
+
+----
+
+Object: fredelin.png
+
+----
+
+Text: (vimeo: https://vimeo.com/289956024)
+
+----
+
+Text2: (image: fredelin.jpg)(link: https://visionmaker.us/nyc/?vision=30586 text: See Fredelin’s Vision! target:_blank)

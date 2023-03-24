@@ -1,0 +1,25 @@
+Title: Get Involved
+
+----
+
+Coverimage: 
+
+----
+
+Date: today
+
+----
+
+Text: Click on the icons to learn more!
+
+----
+
+Featured-video: 
+
+----
+
+Background: background-link.jpg
+
+----
+
+Object: 

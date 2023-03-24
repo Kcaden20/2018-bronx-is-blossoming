@@ -1,0 +1,19 @@
+title: Home
+
+pages: true
+  template:
+    - project
+    - article
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  intro:
+    label: Intro
+    type:  textarea
+
+  background:
+    label: Background Image
+    type: image

@@ -1,0 +1,13 @@
+Title: Mozilla
+
+----
+
+Object: img_2eq3.png
+
+----
+
+Text: This project was made possible by a grant awarded through the Mozilla Foundation’s Hive NYC Innovation Fund.
+
+----
+
+Text2: 

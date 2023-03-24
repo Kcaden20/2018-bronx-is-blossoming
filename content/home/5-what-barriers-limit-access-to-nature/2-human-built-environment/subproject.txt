@@ -1,0 +1,13 @@
+Title: Human-built Environment
+
+----
+
+Object: img_1172-copy.png
+
+----
+
+Text: “The problem is that in some ways we have created infrastructure that keeps us from [nature]. There’s these terrible highways that create a lot of pollution, and they keep us from getting around, and they are very unpleasant to walk around, even if you can walk underneath them. So much of the city is dedicated to cars, to people just going through and not stopping to see what’s there.”<br><br> –** Eric Sanderson, Senior Conservation Ecologist, Wildlife Conservation Society**
+
+----
+
+Text2: <iframe src="https://giphy.com/embed/35HUFaIeV5ZKBE9YpY" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>

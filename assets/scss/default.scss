@@ -1,0 +1,843 @@
+$purple: #A85187; /* MediumSpringGreen (web colors) */
+$blue: #4169E1; /* RoyalBlue (web colors) */
+$yellow: #FFD700; /* Gold (web colors) */
+$one-fifty: 210px;
+$margin: 15px;
+$white: #fff;
+$box-shadow: 1px 1px 5px 1px rgba(0,0,0, 1);
+$drawn-on: 'drawn-onregular';
+$mont: 'Montserrat';
+$border: 5px solid $purple;
+$twenty: 20px;
+$thirty: 30px;
+$fifteen: 15deg;
+$twen: 20deg;
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+// FONTS
+// Drawn-On
+@font-face {
+    font-family: 'drawn-onregular';
+    src: url('../fonts/drawn-on-regular-webfont.woff2') format('woff2'),
+         url('../fonts/drawn-on-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/montserrat-700.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/montserrat-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+// META_ELEMENTS
+body {
+  background-color: $purple;
+  padding-bottom: 40px;
+  position: relative;
+  height: 100vh;
+  margin: 0px;
+}
+
+html {
+  overflow: hidden;
+
+
+}
+
+::selection {
+  background-color: $purple;
+  color: $white;
+}
+
+ .number {
+   background-color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 10000;
+    bottom: 0px;
+    font-family: $mont;
+    color: $purple;
+    border: $border;
+    animation: float 3s ease-in-out infinite;
+ }
+
+ #place8 .number, #place9 .number, #place10 .number {
+   display: none;
+ }
+
+.footer {
+  font-family: $drawn-on;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 95%;
+  z-index: -1;
+}
+
+// HOME LINK
+.branding {
+  z-index: 100000;
+   position: fixed;
+  top: $twenty;
+  left: $thirty;
+}
+.branding a{
+  text-align: center;
+  font-family: $drawn-on;
+  background-color: white;
+  color: $purple;
+  border-radius: 8px;
+  border: $border;
+  display: inline-block;
+  box-shadow: $box-shadow;
+  text-decoration: none;
+  padding: 0px 20px;
+}
+
+.branding a h2 {
+  font-size: 1em;
+}
+
+.branding a:hover {
+  background-color: $purple;
+  color: $white;
+}
+
+a {
+  cursor: cell;
+  text-decoration: underline;
+  color: #663152;
+  font-family: $mont;
+
+}
+
+.giphy-embed {
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+.desc figure img {
+      width: 100%;
+}
+
+
+  li {
+       font-family: $mont;
+
+  }
+
+  .intro a:hover {
+    opacity: .5;
+  }
+
+.template a {
+  text-decoration: none;
+}
+// HAMBURGER MENU
+.menu {
+  background-color: white;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: $twenty;
+  right: $thirty;
+  z-index: 100000;
+  border: $border;
+  box-shadow: $box-shadow;
+}
+
+.menu:hover {
+  background-color: $purple;
+  cursor: cell;
+}
+
+// MENU BARS
+
+.one, .two, .three {
+  background-color: $purple;
+  margin: 5px;
+  display: block;
+  position: relative;
+  left: 10px;
+  top: 8px;
+  height: 5px;
+  width: 20px;
+
+}
+
+.one {
+  margin-top: 4px;
+}
+
+
+// MENU OVERLAY
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $white;
+  z-index: 9999999;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  text-align: center;
+}
+
+.overlay a {
+  font-family: $drawn-on;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: $purple;
+  display: block;
+}
+
+.overlay a:hover, .overlay a:focus {
+  background-color: $purple;
+  color: $white;
+
+}
+
+.overlay-content a:hover {
+  color: white;
+}
+
+
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  font-size: 40px;
+  color: $purple;
+  background-color: white;
+  border:$border;
+  padding: 0px;
+  border-radius: 30px;
+  font-family: $mont;
+  text-align: center;
+  box-shadow: $box-shadow;
+}
+
+
+// MENU_IMAGE
+
+.nav-image-top {
+  position: absolute;
+  height: 200px;
+
+}
+
+.nav-image-bottom {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  transform: rotate(180deg);
+  height: 200px;
+}
+
+main {
+      position: fixed;
+    width: 100%;
+}
+main .wrap {
+  height: 90vh;
+}
+
+// IMAGE ELEMENTS
+.img-wrap {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: inherit;
+}
+
+ div .template  {
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+    z-index: 10000;
+
+}
+
+.menu:hover .one {
+  background-color: white;
+}
+
+.menu:hover .two {
+  background-color: white;
+}
+
+.menu:hover .three {
+  background-color: white;
+}
+
+
+.desc_wrap {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    /* display: block; */
+    width: 143px;
+    /* background-color: red; */
+    height: 100%;
+    width: $one-fifty;
+}
+
+
+.template img {
+ width: 100%;
+   max-height: $one-fifty;
+  max-width: $one-fifty;
+  animation: float 3s ease-in-out infinite;
+}
+
+div .template h2 {
+  font-family: $drawn-on;
+  text-align: center;
+  background-color: white;
+  color: $purple;
+  border-radius: 8px;
+  border: $border;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   visibility: hidden;
+}
+
+
+div .template:hover {
+  transform: rotate(10deg);
+  cursor: cell;
+}
+
+div .template:hover h2 {
+  visibility: visible;
+}
+
+div .template h2:focus{
+   visibility: visible;
+}
+
+
+
+#title {
+   display: none;
+}
+
+
+// IMAGE PLACEMENT
+#place1 {
+
+    top: -4%;
+    left: 67%;
+
+}
+
+#place1:hover{
+    -webkit-transform: rotate(-$twen);
+  -ms-transform: rotate(-$twen);
+  transform: rotate(-$twen);
+}
+
+
+#place5:hover, #place2:hover, #place3:hover, #place4:hover {
+    -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+#place2 {
+    top: 20%;
+  left: 80%;
+  -webkit-transform: rotate($twen);
+  -ms-transform: rotate($twen);
+  transform: rotate($twen);
+}
+
+
+
+#place3 {
+  top: 71%;
+  left: 10%;
+  -webkit-transform: rotate(-$fifteen);
+  -ms-transform: rotate(-$fifteen);
+  transform: rotate(-$fifteen);
+}
+
+#place4 {
+    top: 70%;
+  right: 10%;
+  -webkit-transform: rotate($fifteen);
+  -ms-transform: rotate($fifteen);
+  transform: rotate(fifteen);
+}
+
+#place5 {
+  top: 20%;
+  left: 2%;
+  -webkit-transform: rotate(-$twen);
+  -ms-transform: rotate(-$twen);
+  transform: rotate(-$twen);
+}
+
+#place6 {
+    top: 80%;
+  left: 40%;
+}
+
+#place7 {
+  left: 12% ;
+  }
+
+#place8 {
+  top: 52%;
+  right: 0%;
+}
+
+#place9 {
+  top: 47%;
+}
+
+// TEXT ELEMENT
+.intro {
+  border-radius: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px)    translateY(-50%);
+  background-color: $white;
+  padding: 2px 30px 2px 30px;
+  color:  $purple;
+  box-shadow: $box-shadow;
+  z-index: 10000;
+  border: $border;
+}
+
+
+
+// FONT IMPLIMENTATION
+.intro h1 p {
+  font-family: $drawn-on;
+  text-align: center;
+  font-size: 40px;
+}
+
+.intro p {
+  font-size: 16px;
+  font-family: $mont;
+  font-weight: 400;
+}
+
+.desc {
+    padding-bottom: 40px;
+    font-family: $mont;
+}
+
+.video {
+      height: 23vw;
+      margin: 0px !important;
+
+}
+
+#player {
+  height: 90% !important;
+}
+.desc .video iframe{
+width: 100% !important;
+    height: 23vw !important;
+    max-height: 400px;
+    z-index: 1000;
+    margin: 0 auto;
+    display: block;
+}
+.readmore, .back {
+  background-color: $white;
+  border: $border;
+  box-shadow: $box-shadow;
+  display: inline-block;
+  padding: 20px;
+  float: right;
+  margin-top: -35px;
+  position: absolute !important;
+    top: 69% !important;
+    left: 110% !important;
+    transform: translate(-50%, -50%);
+
+}
+
+.back {
+  float: left;
+      top: 69% !important;
+    left: -10% !important;
+    transform: translate(-50%, -50%);
+}
+
+
+
+// PAGINATION
+.pagination {
+  margin-bottom: 1.5rem;
+  position: fixed;
+  width: 99vw;
+  top: 80vh;
+}
+
+.pagination-item {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  padding: 20px;
+  background: $white;
+  color: $purple;
+  border: $border;
+  box-shadow: $box-shadow;
+  top: 10px;
+
+}
+
+.pagination-item:hover, .pagination-item:focus {
+  background: $purple;
+  color: $white;
+}
+
+.pagination-item:active {
+  background: #ffffff;
+}
+
+.pagination-item.left {
+  float: left;
+  margin-left: $thirty;
+}
+
+.pagination-item.right {
+  float: right;
+  margin-right: $thirty;
+}
+
+.pagination-item svg {
+  position: relative;
+  top: 50%;
+  display: block;
+  margin: -6px auto 0;
+  width: 24px;
+  height: 12px;
+}
+
+.pagination-item path {
+  fill: currentColor;
+}
+
+.pagination-item.is-inactive {
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 960px) {
+
+  .intro {
+      max-width: 450px;
+  }
+
+   div .template  {
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  }
+
+  div .template img {
+    max-height: 175px;
+    max-width: 175px;
+  }
+
+  .desc_wrap {
+    width: 200px;
+  }
+
+  .intro p {
+    font-size: 10pt;
+  }
+
+
+
+  #place2 {
+    top: 13%;
+  }
+
+  #place3 {
+      top: 75%;
+    left: 20%;
+
+  }
+
+  #place4 {
+  top: 80%;
+  right: 16%;
+
+  }
+
+  #place5 {
+    left: -2%;
+  }
+
+
+
+.video {
+      height: 28vw;
+      margin: 0px !important;
+
+}
+
+.desc .video iframe{
+width: 100% !important;
+    height: 28vw !important;
+    max-height: 400px;
+    z-index: 1000;
+    margin: 0 auto;
+    display: block;
+}
+
+
+  }
+
+  @media screen and (max-width: 600px) {
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  height: inherit;
+}
+
+div .template {
+  margin: 50px auto;
+  display: block;
+  position: relative;
+  width: 200px;
+
+
+}
+
+.branding {
+  top: 23px;
+}
+div .template h2 {
+  font-size: 18px;
+
+}
+
+.branding {
+  left: 12px;
+}
+
+.menu {
+  right: 11px;
+}
+
+main {
+      position: relative;
+    width: 100%;
+}
+
+main .wrap {
+  height: inherit;
+}
+
+  .intro {
+    border-radius: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    top: 0%;
+    transform: none;
+    background-color: $white;
+    padding: 2px 30px 15px 30px;
+    color: $purple;
+    box-shadow: 1px 1px 5px 1px black;
+    border: $border;
+  }
+
+  h1 p {
+  }
+
+  .img-wrap {
+    position: relative;
+  }
+
+  #place1 {
+    top: 0% ;
+    left: 20% !important;
+  }
+
+  #place2 {
+    top: 0%;
+    left: -20% ;
+  }
+
+  #place3{
+    top: 0%;
+    left: -20% !important;
+  }
+
+  #place4 {
+    top: 0%;
+    left: 20%;
+  }
+
+  #place5 {
+    top: 0%;
+    left: -25%;
+      -webkit-transform: rotate(-$twen);
+  -ms-transform: rotate(-$twen);
+  transform: rotate(-$twen);
+
+  }
+    #place6 {
+    top: 0%;
+    left: -25% !important;
+      -webkit-transform: rotate(-$twen);
+  -ms-transform: rotate(-$twen);
+  transform: rotate(-$twen);
+
+
+  }
+
+  #place5:hover, #place6:hover {
+          -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  }
+
+  .pagination {
+  margin-bottom: 1.5rem;
+  position: relative;
+  width: inherit;
+  top: 0px;
+  padding-top: 60px;
+}
+
+.desc .video {
+  height: 42vw;
+  margin: 0px !important;
+}
+
+.desc .video iframe{
+    height: 42vw !important;
+}
+
+.desc_wrap {
+      position: relative;
+    top: 0;
+    text-align: center;
+    /* display: block; */
+    width: 143px;
+    /* background-color: red; */
+    height: 100%;
+    width: 200px;
+}
+div .template h2 {
+    font-family: "drawn-onregular";
+    /* text-align: center; */
+    background-color: white;
+    /* font-size: 20px; */
+    color: #A85187;
+    border-radius: 8px;
+    border: 5px solid #A85187;
+    visibility: visible;
+position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+
+}
+
+  .intro p {
+    font-size: 12pt;
+  }
+
+
+.overlay a {
+  font-size: 22px;
+}
+
+.readmore, .back {
+  position: relative !important;
+    top: 0%;
+    left: 0% !important;
+    transform: translate(0%, 0%);
+
+}
+
+.back {
+  position: relative !important;
+    top: 0%;
+    left: 0% !important;
+    transform: translate(0%, 0%);
+}
+
+.number {
+  display: none;
+}
+
+}
+
+
+
+  @media screen and (min-width: 1500px){
+    .template img {
+ width: 100%;
+   max-height: 250px;
+  max-width: 250px;
+  animation: float 3s ease-in-out infinite;
+}
+
+
+  }

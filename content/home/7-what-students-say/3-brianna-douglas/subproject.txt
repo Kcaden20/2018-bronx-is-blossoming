@@ -1,0 +1,13 @@
+Title: Brianna Douglas
+
+----
+
+Object: brianna.png
+
+----
+
+Text: (vimeo: https://vimeo.com/289955246)
+
+----
+
+Text2: (image: brianna.jpg)(link:https://visionmaker.us/nyc/?vision=30571 text:See Brianna’s vision! target:_blank)
